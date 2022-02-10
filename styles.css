@@ -25,6 +25,7 @@ section {
   padding-top: 100px;
 }
 
+
 .blue {
   background: #3c31dd;
 }
@@ -116,4 +117,33 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.layer1 {
+  background-image: url('./layer1.svg');
+}
+
+.layer2 {
+  background-image: url('./layer2.svg');
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+.blob-motion {
+  position: absolute;
+  transform: translateY(-20%);
+  z-index: 0;
+}
+
+
+.blob-content {
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.blobs {
+  width: 100%;
+  background: url('./blobs.svg') no-repeat bottom / cover;
 }
